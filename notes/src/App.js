@@ -80,7 +80,7 @@ const App = () => {
       window.alert('Select a designation');
     }
   };
-  if (user === null && designation === '') {
+  if (user === null) {
     return (
       <div>
         <Notification Message={Message} />
